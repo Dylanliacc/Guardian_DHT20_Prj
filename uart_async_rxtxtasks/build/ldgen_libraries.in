@@ -63,8 +63,8 @@ $<TARGET_FILE:__idf_spiffs>
 $<TARGET_FILE:__idf_touch_element>
 $<TARGET_FILE:__idf_usb>
 $<TARGET_FILE:__idf_wifi_provisioning>
-$<TARGET_FILE:__idf_main>
 $<TARGET_FILE:__idf_toolbox>
+$<TARGET_FILE:__idf_main>
 $<TARGET_FILE:__idf_dht20>
 $<TARGET_FILE:__idf_AT_HOST>
 $<TARGET_FILE:__idf_your_custom_component>

@@ -11,7 +11,11 @@
     "i2c.h": "c",
     "dht20.h": "c",
     "uart.h": "c",
-    "cstring": "c"
+    "cstring": "c",
+    "uart_process.h": "c",
+    "core.h": "c",
+    "freertos.h": "c",
+    "at_host_task_queue.h": "c"
   },
   "C_Cpp.dimInactiveRegions": true
 }
