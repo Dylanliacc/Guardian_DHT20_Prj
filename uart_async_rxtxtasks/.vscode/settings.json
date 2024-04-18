@@ -9,6 +9,9 @@
     "sdkconfig.h": "c",
     "toolbox.h": "c",
     "i2c.h": "c",
-    "dht20.h": "c"
-  }
+    "dht20.h": "c",
+    "uart.h": "c",
+    "cstring": "c"
+  },
+  "C_Cpp.dimInactiveRegions": true
 }

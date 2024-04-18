@@ -14,9 +14,6 @@
 # EXTERNAL cache entries
 ########################
 
-//No help, variable specified on the command line.
-CCACHE_ENABLE:UNINITIALIZED=0
-
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/home/dylan/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32s3-elf-addr2line
 
@@ -324,9 +321,6 @@ Mbed TLS_BINARY_DIR:STATIC=/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT2
 
 //Value Computed by CMake
 Mbed TLS_SOURCE_DIR:STATIC=/home/dylan/esp/v5.2.1/esp-idf/components/mbedtls/mbedtls
-
-//No help, variable specified on the command line.
-PYTHON:UNINITIALIZED=/home/dylan/.espressif/python_env/idf5.2_py3.8_env/bin/python
 
 //No help, variable specified on the command line.
 PYTHON_DEPS_CHECKED:UNINITIALIZED=1

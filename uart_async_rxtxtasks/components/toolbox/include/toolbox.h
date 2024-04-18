@@ -1,3 +1,13 @@
+/*
+ * @Author: dylan dylan3000dylan@gmail.com
+ * @Date: 2024-04-18 11:28:44
+ * @LastEditors: dylan dylan3000dylan@gmail.com
+ * @LastEditTime: 2024-04-18 16:06:33
+ * @FilePath: /uart_async_rxtxtasks/components/toolbox/include/toolbox.h
+ * @Description: 
+ * 
+ *  
+ */
 #pragma once
 
 #include <stdio.h>
@@ -8,9 +18,11 @@
 #include "freertos/task.h"
 #include "esp_timer.h"
 #include "driver/i2c.h"
+#include "driver/uart.h"
 #include "esp_log.h"
 #include "esp_err.h"
 #include "sdkconfig.h"
+#include "string.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -37,8 +49,21 @@ extern "C" {
 #define I2C_BUS_SPEED   CONFIG_I2C_MASTER_FREQUENCY
 #define I2C_CMD_TIMEOUT CONFIG_I2C_BUS_TIMEOUT
 #else
-#error "shit happens"
+#error "666 shit happens"
 #endif
+
+
+#ifdef CONFIG_ENABLE_AT_HOST_UART
+#define AT_HOST_name CONFIG_AT_HOST_name
+#define AT_HOST_UART_BAUD_RATE  CONFIG_AT_HOST_UART_BAUD_RATE
+#define AT_HOST_UART_RX_PIN     CONFIG_AT_HOST_UART_RX_PIN
+#define AT_HOST_UART_TX_PIN     CONFIG_AT_HOST_UART_TX_PIN
+#define AT_HOST_UART_RX_BUFFER_SIZE CONFIG_AT_HOST_UART_RX_BUFFER_SIZE
+#define AT_T_HOST_UART_TX_BUFFER_SIZE   CONFIG_AT_HOST_UART_TX_BUFFER_SIZE
+//@Dylanliacc @@TODO@@
+//太多了不写了先用系统值不用自定义值了，先能用就行后面再来补
+#endif
+
 #endif
 
 #define millis()    ( esp_timer_get_time() / 1000 )
@@ -59,6 +84,12 @@ double map(double x, double in_min, double in_max, double out_min, double out_ma
 
 uint8_t bcd2dec(uint8_t val);
 uint8_t dec2bcd(uint8_t val);
+
+
+/**AT_HOST_UART*/
+void _AT_HOST_init(void);
+int sendData(const char* logName, const char* data);
+
 
 #ifdef __cplusplus
 }

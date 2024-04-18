@@ -248,3 +248,44 @@ double map(double x, double in_min, double in_max, double out_min, double out_ma
     const double delta = x - in_min;
     return (delta * rise) / run + out_min;
 }
+
+
+
+/**
+ * @description:  串口初始化 
+ * @return {*}
+ */
+void _AT_HOST_init(void)
+{
+    const uart_config_t uart_config = {
+        .baud_rate = AT_HOST_UART_BAUD_RATE,
+        .data_bits = CONFIG_AT_HOST_UART_DATA_BITS,
+        .parity = CONFIG_AT_HOST_UART_DATA_PARITY,
+        .stop_bits = CONFIG_AT_HOST_UART_DATA_STOP_BITS,
+        .flow_ctrl = CONFIG_AT_HOST_UART_DATA_FLOW_CONTROL,
+        .source_clk = UART_SCLK_DEFAULT,
+    };
+    // We won't use a buffer for sending data.
+    uart_driver_install(CONFIG_AT_HOST_UART_RX_PIN, CONFIG_AT_HOST_UART_RX_BUFFER_SIZE * 2, CONFIG_AT_HOST_UART_RX_BUFFER_SIZE, 0, NULL, 0);
+    uart_param_config(CONFIG_AT_HOST_UART_RX_PIN, &uart_config);
+    uart_set_pin(CONFIG_AT_HOST_UART_PORT_NUM, CONFIG_AT_HOST_UART_TX_PIN,CONFIG_AT_HOST_UART_RX_PIN, UART_PIN_NO_CHANGE, UART_PIN_NO_CHANGE);
+}
+
+
+
+/**
+ * @description:    串口发送数据
+ * @param {char*} logName
+ * @param {char*} data
+ * @return {*int } 发送的数据量
+ */
+int sendData(const char* logName, const char* data)
+{
+    const int len = strlen(data);
+    const int txBytes = uart_write_bytes(UART_NUM_1, data, len);
+    ESP_LOGI(logName, "Wrote %d bytes", txBytes);
+    return txBytes;
+}
+
+
+

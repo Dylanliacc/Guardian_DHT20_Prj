@@ -33,7 +33,7 @@ menu "TOOLBOX SETUP"
             if ENABLE_AT_HOST_UART
                 config  AT_HOST_UART_PORT_NUM
                     int "UART Port"
-                    default 0 
+                    default 1 
                 config AT_HOST_name
                     string "UART Name"
                     default "UART"
