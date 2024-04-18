@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/Guardian_DHT20_Prj/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/Guardian_DHT20_Prj/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/Guardian_DHT20_Prj/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/Guardian_DHT20_Prj/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/Guardian_DHT20_Prj/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/Guardian_DHT20_Prj/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/Guardian_DHT20_Prj/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		},
+		{
+			"file" : "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/Guardian_DHT20_Prj/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/Guardian_DHT20_Prj/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/Guardian_DHT20_Prj/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}

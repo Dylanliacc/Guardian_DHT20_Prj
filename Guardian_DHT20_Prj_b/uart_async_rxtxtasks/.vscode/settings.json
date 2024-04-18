@@ -1,0 +1,21 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.adapterTargetName": "esp32s3",
+  "idf.port": "/dev/ttyACM0",
+  "idf.flashType": "JTAG",
+  "idf.openOcdConfigs": ["board/esp32s3-builtin.cfg"],
+  "cmake.configureOnOpen": false,
+  "files.associations": {
+    "sdkconfig.h": "c",
+    "toolbox.h": "c",
+    "i2c.h": "c",
+    "dht20.h": "c",
+    "uart.h": "c",
+    "cstring": "c",
+    "uart_process.h": "c",
+    "core.h": "c",
+    "freertos.h": "c",
+    "at_host_task_queue.h": "c"
+  },
+  "C_Cpp.dimInactiveRegions": true
+}
