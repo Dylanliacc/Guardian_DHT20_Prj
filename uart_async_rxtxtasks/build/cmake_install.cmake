@@ -33,8 +33,9 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
+  # Include the install script for each subdirectory.
   include("/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/build/esp-idf/cmake_install.cmake")
+
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

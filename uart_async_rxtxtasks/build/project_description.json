@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "uart_async_rxtxtasks",
-    "project_version":    "e55f36e-dirty",
+    "project_version":    "7d90384-dirty",
     "project_path":       "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks",
     "idf_path":           "/home/dylan/esp/v5.2.1/esp-idf",
     "build_dir":          "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/build",
@@ -21,12 +21,12 @@
     "monitor_toolprefix": "xtensa-esp32s3-elf-",
     "c_compiler":         "/home/dylan/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc",
     "config_environment" : {
-        "COMPONENT_KCONFIGS" : "/home/dylan/esp/v5.2.1/esp-idf/components/app_trace/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/bt/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/driver/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/efuse/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp-tls/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_adc/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_coex/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_common/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_eth/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_event/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_gdbstub/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_http_client/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_http_server/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_https_ota/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_https_server/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_hw_support/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_lcd/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_netif/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_partition/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_phy/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_pm/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_psram/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_ringbuf/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_system/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_timer/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_wifi/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/espcoredump/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/fatfs/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/freertos/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/hal/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/heap/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/ieee802154/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/log/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/lwip/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/mbedtls/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/mqtt/esp-mqtt/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/newlib/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/nvs_flash/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/nvs_sec_provider/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/openthread/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/protocomm/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/pthread/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/soc/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/spi_flash/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/spiffs/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/tcp_transport/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/ulp/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/unity/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/usb/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/vfs/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/wear_levelling/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/wifi_provisioning/Kconfig",
+        "COMPONENT_KCONFIGS" : "/home/dylan/esp/v5.2.1/esp-idf/components/app_trace/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/bt/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/driver/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/efuse/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp-tls/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_adc/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_coex/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_common/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_eth/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_event/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_gdbstub/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_http_client/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_http_server/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_https_ota/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_https_server/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_hw_support/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_lcd/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_netif/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_partition/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_phy/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_pm/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_psram/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_ringbuf/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_system/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_timer/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/esp_wifi/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/espcoredump/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/fatfs/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/freertos/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/hal/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/heap/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/ieee802154/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/log/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/lwip/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/mbedtls/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/mqtt/esp-mqtt/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/newlib/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/nvs_flash/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/nvs_sec_provider/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/openthread/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/protocomm/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/pthread/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/soc/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/spi_flash/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/spiffs/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/tcp_transport/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/ulp/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/unity/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/usb/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/vfs/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/wear_levelling/Kconfig;/home/dylan/esp/v5.2.1/esp-idf/components/wifi_provisioning/Kconfig;/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/components/dht20/Kconfig;/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/components/toolbox/Kconfig",
         "COMPONENT_KCONFIGS_PROJBUILD" : "/home/dylan/esp/v5.2.1/esp-idf/components/bootloader/Kconfig.projbuild;/home/dylan/esp/v5.2.1/esp-idf/components/esp_app_format/Kconfig.projbuild;/home/dylan/esp/v5.2.1/esp-idf/components/esp_rom/Kconfig.projbuild;/home/dylan/esp/v5.2.1/esp-idf/components/esptool_py/Kconfig.projbuild;/home/dylan/esp/v5.2.1/esp-idf/components/partition_table/Kconfig.projbuild"
     },
     "common_component_reqs": [ "cxx", "newlib", "freertos", "esp_hw_support", "heap", "log", "soc", "hal", "esp_rom", "esp_common", "esp_system", "xtensa" ],
-    "build_components" : [ "app_trace", "app_update", "bootloader", "bootloader_support", "bt", "cmock", "console", "cxx", "driver", "efuse", "esp-tls", "esp_adc", "esp_app_format", "esp_bootloader_format", "esp_coex", "esp_common", "esp_eth", "esp_event", "esp_gdbstub", "esp_hid", "esp_http_client", "esp_http_server", "esp_https_ota", "esp_https_server", "esp_hw_support", "esp_lcd", "esp_local_ctrl", "esp_mm", "esp_netif", "esp_netif_stack", "esp_partition", "esp_phy", "esp_pm", "esp_psram", "esp_ringbuf", "esp_rom", "esp_system", "esp_timer", "esp_wifi", "espcoredump", "esptool_py", "fatfs", "freertos", "hal", "heap", "http_parser", "idf_test", "ieee802154", "json", "log", "lwip", "main", "mbedtls", "mqtt", "newlib", "nvs_flash", "nvs_sec_provider", "openthread", "partition_table", "perfmon", "protobuf-c", "protocomm", "pthread", "sdmmc", "soc", "spi_flash", "spiffs", "tcp_transport", "touch_element", "ulp", "unity", "usb", "vfs", "wear_levelling", "wifi_provisioning", "wpa_supplicant", "xtensa", "" ],
-    "build_component_paths" : [ "/home/dylan/esp/v5.2.1/esp-idf/components/app_trace", "/home/dylan/esp/v5.2.1/esp-idf/components/app_update", "/home/dylan/esp/v5.2.1/esp-idf/components/bootloader", "/home/dylan/esp/v5.2.1/esp-idf/components/bootloader_support", "/home/dylan/esp/v5.2.1/esp-idf/components/bt", "/home/dylan/esp/v5.2.1/esp-idf/components/cmock", "/home/dylan/esp/v5.2.1/esp-idf/components/console", "/home/dylan/esp/v5.2.1/esp-idf/components/cxx", "/home/dylan/esp/v5.2.1/esp-idf/components/driver", "/home/dylan/esp/v5.2.1/esp-idf/components/efuse", "/home/dylan/esp/v5.2.1/esp-idf/components/esp-tls", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_adc", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_app_format", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_bootloader_format", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_coex", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_common", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_eth", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_event", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_gdbstub", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_hid", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_http_client", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_http_server", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_https_ota", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_https_server", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_hw_support", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_lcd", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_local_ctrl", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_mm", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_netif", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_netif_stack", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_partition", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_phy", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_pm", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_psram", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_ringbuf", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_rom", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_system", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_timer", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_wifi", "/home/dylan/esp/v5.2.1/esp-idf/components/espcoredump", "/home/dylan/esp/v5.2.1/esp-idf/components/esptool_py", "/home/dylan/esp/v5.2.1/esp-idf/components/fatfs", "/home/dylan/esp/v5.2.1/esp-idf/components/freertos", "/home/dylan/esp/v5.2.1/esp-idf/components/hal", "/home/dylan/esp/v5.2.1/esp-idf/components/heap", "/home/dylan/esp/v5.2.1/esp-idf/components/http_parser", "/home/dylan/esp/v5.2.1/esp-idf/components/idf_test", "/home/dylan/esp/v5.2.1/esp-idf/components/ieee802154", "/home/dylan/esp/v5.2.1/esp-idf/components/json", "/home/dylan/esp/v5.2.1/esp-idf/components/log", "/home/dylan/esp/v5.2.1/esp-idf/components/lwip", "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/main", "/home/dylan/esp/v5.2.1/esp-idf/components/mbedtls", "/home/dylan/esp/v5.2.1/esp-idf/components/mqtt", "/home/dylan/esp/v5.2.1/esp-idf/components/newlib", "/home/dylan/esp/v5.2.1/esp-idf/components/nvs_flash", "/home/dylan/esp/v5.2.1/esp-idf/components/nvs_sec_provider", "/home/dylan/esp/v5.2.1/esp-idf/components/openthread", "/home/dylan/esp/v5.2.1/esp-idf/components/partition_table", "/home/dylan/esp/v5.2.1/esp-idf/components/perfmon", "/home/dylan/esp/v5.2.1/esp-idf/components/protobuf-c", "/home/dylan/esp/v5.2.1/esp-idf/components/protocomm", "/home/dylan/esp/v5.2.1/esp-idf/components/pthread", "/home/dylan/esp/v5.2.1/esp-idf/components/sdmmc", "/home/dylan/esp/v5.2.1/esp-idf/components/soc", "/home/dylan/esp/v5.2.1/esp-idf/components/spi_flash", "/home/dylan/esp/v5.2.1/esp-idf/components/spiffs", "/home/dylan/esp/v5.2.1/esp-idf/components/tcp_transport", "/home/dylan/esp/v5.2.1/esp-idf/components/touch_element", "/home/dylan/esp/v5.2.1/esp-idf/components/ulp", "/home/dylan/esp/v5.2.1/esp-idf/components/unity", "/home/dylan/esp/v5.2.1/esp-idf/components/usb", "/home/dylan/esp/v5.2.1/esp-idf/components/vfs", "/home/dylan/esp/v5.2.1/esp-idf/components/wear_levelling", "/home/dylan/esp/v5.2.1/esp-idf/components/wifi_provisioning", "/home/dylan/esp/v5.2.1/esp-idf/components/wpa_supplicant", "/home/dylan/esp/v5.2.1/esp-idf/components/xtensa", "" ],
+    "build_components" : [ "app_trace", "app_update", "bootloader", "bootloader_support", "bt", "cmock", "console", "cxx", "dht20", "driver", "efuse", "esp-tls", "esp_adc", "esp_app_format", "esp_bootloader_format", "esp_coex", "esp_common", "esp_eth", "esp_event", "esp_gdbstub", "esp_hid", "esp_http_client", "esp_http_server", "esp_https_ota", "esp_https_server", "esp_hw_support", "esp_lcd", "esp_local_ctrl", "esp_mm", "esp_netif", "esp_netif_stack", "esp_partition", "esp_phy", "esp_pm", "esp_psram", "esp_ringbuf", "esp_rom", "esp_system", "esp_timer", "esp_wifi", "espcoredump", "esptool_py", "fatfs", "freertos", "hal", "heap", "http_parser", "idf_test", "ieee802154", "json", "log", "lwip", "main", "mbedtls", "mqtt", "newlib", "nvs_flash", "nvs_sec_provider", "openthread", "partition_table", "perfmon", "protobuf-c", "protocomm", "pthread", "sdmmc", "soc", "spi_flash", "spiffs", "tcp_transport", "toolbox", "touch_element", "ulp", "unity", "usb", "vfs", "wear_levelling", "wifi_provisioning", "wpa_supplicant", "xtensa", "your_custom_component", "" ],
+    "build_component_paths" : [ "/home/dylan/esp/v5.2.1/esp-idf/components/app_trace", "/home/dylan/esp/v5.2.1/esp-idf/components/app_update", "/home/dylan/esp/v5.2.1/esp-idf/components/bootloader", "/home/dylan/esp/v5.2.1/esp-idf/components/bootloader_support", "/home/dylan/esp/v5.2.1/esp-idf/components/bt", "/home/dylan/esp/v5.2.1/esp-idf/components/cmock", "/home/dylan/esp/v5.2.1/esp-idf/components/console", "/home/dylan/esp/v5.2.1/esp-idf/components/cxx", "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/components/dht20", "/home/dylan/esp/v5.2.1/esp-idf/components/driver", "/home/dylan/esp/v5.2.1/esp-idf/components/efuse", "/home/dylan/esp/v5.2.1/esp-idf/components/esp-tls", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_adc", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_app_format", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_bootloader_format", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_coex", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_common", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_eth", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_event", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_gdbstub", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_hid", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_http_client", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_http_server", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_https_ota", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_https_server", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_hw_support", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_lcd", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_local_ctrl", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_mm", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_netif", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_netif_stack", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_partition", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_phy", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_pm", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_psram", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_ringbuf", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_rom", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_system", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_timer", "/home/dylan/esp/v5.2.1/esp-idf/components/esp_wifi", "/home/dylan/esp/v5.2.1/esp-idf/components/espcoredump", "/home/dylan/esp/v5.2.1/esp-idf/components/esptool_py", "/home/dylan/esp/v5.2.1/esp-idf/components/fatfs", "/home/dylan/esp/v5.2.1/esp-idf/components/freertos", "/home/dylan/esp/v5.2.1/esp-idf/components/hal", "/home/dylan/esp/v5.2.1/esp-idf/components/heap", "/home/dylan/esp/v5.2.1/esp-idf/components/http_parser", "/home/dylan/esp/v5.2.1/esp-idf/components/idf_test", "/home/dylan/esp/v5.2.1/esp-idf/components/ieee802154", "/home/dylan/esp/v5.2.1/esp-idf/components/json", "/home/dylan/esp/v5.2.1/esp-idf/components/log", "/home/dylan/esp/v5.2.1/esp-idf/components/lwip", "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/main", "/home/dylan/esp/v5.2.1/esp-idf/components/mbedtls", "/home/dylan/esp/v5.2.1/esp-idf/components/mqtt", "/home/dylan/esp/v5.2.1/esp-idf/components/newlib", "/home/dylan/esp/v5.2.1/esp-idf/components/nvs_flash", "/home/dylan/esp/v5.2.1/esp-idf/components/nvs_sec_provider", "/home/dylan/esp/v5.2.1/esp-idf/components/openthread", "/home/dylan/esp/v5.2.1/esp-idf/components/partition_table", "/home/dylan/esp/v5.2.1/esp-idf/components/perfmon", "/home/dylan/esp/v5.2.1/esp-idf/components/protobuf-c", "/home/dylan/esp/v5.2.1/esp-idf/components/protocomm", "/home/dylan/esp/v5.2.1/esp-idf/components/pthread", "/home/dylan/esp/v5.2.1/esp-idf/components/sdmmc", "/home/dylan/esp/v5.2.1/esp-idf/components/soc", "/home/dylan/esp/v5.2.1/esp-idf/components/spi_flash", "/home/dylan/esp/v5.2.1/esp-idf/components/spiffs", "/home/dylan/esp/v5.2.1/esp-idf/components/tcp_transport", "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/components/toolbox", "/home/dylan/esp/v5.2.1/esp-idf/components/touch_element", "/home/dylan/esp/v5.2.1/esp-idf/components/ulp", "/home/dylan/esp/v5.2.1/esp-idf/components/unity", "/home/dylan/esp/v5.2.1/esp-idf/components/usb", "/home/dylan/esp/v5.2.1/esp-idf/components/vfs", "/home/dylan/esp/v5.2.1/esp-idf/components/wear_levelling", "/home/dylan/esp/v5.2.1/esp-idf/components/wifi_provisioning", "/home/dylan/esp/v5.2.1/esp-idf/components/wpa_supplicant", "/home/dylan/esp/v5.2.1/esp-idf/components/xtensa", "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/components/your_custom_component", "" ],
     "build_component_info" : {
         "app_trace": {
             "alias": "idf::app_trace",
@@ -147,6 +147,21 @@
             "file": "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/build/esp-idf/cxx/libcxx.a",
             "sources": [ "/home/dylan/esp/v5.2.1/esp-idf/components/cxx/cxx_exception_stubs.cpp", "/home/dylan/esp/v5.2.1/esp-idf/components/cxx/cxx_guards.cpp" ],
             "include_dirs": []
+        },
+        "dht20": {
+            "alias": "idf::dht20",
+            "target": "___idf_dht20",
+            "prefix": "idf",
+            "dir": "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/components/dht20",
+            "type": "LIBRARY",
+            "lib": "__idf_dht20",
+            "reqs": [],
+            "priv_reqs": [ "toolbox" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/build/esp-idf/dht20/libdht20.a",
+            "sources": [ "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/components/dht20/firfilter.c", "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/components/dht20/dht20.c", "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/components/dht20/CMakeLists.txt", "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/components/dht20/Kconfig", "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/components/dht20/include/dht20.h", "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/components/dht20/include/firfilter.h" ],
+            "include_dirs": [ "include" ]
         },
         "driver": {
             "alias": "idf::driver",
@@ -1048,6 +1063,21 @@
             "sources": [ "/home/dylan/esp/v5.2.1/esp-idf/components/tcp_transport/transport.c", "/home/dylan/esp/v5.2.1/esp-idf/components/tcp_transport/transport_ssl.c", "/home/dylan/esp/v5.2.1/esp-idf/components/tcp_transport/transport_internal.c", "/home/dylan/esp/v5.2.1/esp-idf/components/tcp_transport/transport_socks_proxy.c", "/home/dylan/esp/v5.2.1/esp-idf/components/tcp_transport/transport_ws.c" ],
             "include_dirs": [ "include" ]
         },
+        "toolbox": {
+            "alias": "idf::toolbox",
+            "target": "___idf_toolbox",
+            "prefix": "idf",
+            "dir": "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/components/toolbox",
+            "type": "LIBRARY",
+            "lib": "__idf_toolbox",
+            "reqs": [ "driver", "esp_timer" ],
+            "priv_reqs": [],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/build/esp-idf/toolbox/libtoolbox.a",
+            "sources": [ "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/components/toolbox/CMakeLists.txt", "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/components/toolbox/Kconfig", "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/components/toolbox/include/toolbox.h", "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/components/toolbox/toolbox.c" ],
+            "include_dirs": [ "include" ]
+        },
         "touch_element": {
             "alias": "idf::touch_element",
             "target": "___idf_touch_element",
@@ -1182,6 +1212,21 @@
             "file": "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/build/esp-idf/xtensa/libxtensa.a",
             "sources": [ "/home/dylan/esp/v5.2.1/esp-idf/components/xtensa/eri.c", "/home/dylan/esp/v5.2.1/esp-idf/components/xtensa/xt_trax.c", "/home/dylan/esp/v5.2.1/esp-idf/components/xtensa/xtensa_context.S", "/home/dylan/esp/v5.2.1/esp-idf/components/xtensa/xtensa_intr_asm.S", "/home/dylan/esp/v5.2.1/esp-idf/components/xtensa/xtensa_intr.c", "/home/dylan/esp/v5.2.1/esp-idf/components/xtensa/xtensa_vectors.S" ],
             "include_dirs": [ "esp32s3/include", "include", "deprecated_include" ]
+        },
+        "your_custom_component": {
+            "alias": "idf::your_custom_component",
+            "target": "___idf_your_custom_component",
+            "prefix": "idf",
+            "dir": "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/components/your_custom_component",
+            "type": "LIBRARY",
+            "lib": "__idf_your_custom_component",
+            "reqs": [],
+            "priv_reqs": [],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/build/esp-idf/your_custom_component/libyour_custom_component.a",
+            "sources": [ "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/components/your_custom_component/your_custom_component.c" ],
+            "include_dirs": [ "include" ]
         }
     },
     "all_component_info" : {
@@ -2132,6 +2177,42 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "include_dirs": [ "." ]
+        },
+        "dht20": {
+            "alias": "idf::dht20",
+            "target": "___idf_dht20",
+            "prefix": "idf",
+            "dir": "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/components/dht20",
+            "lib": "__idf_dht20",
+            "reqs": [],
+            "priv_reqs": [ "toolbox" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "include_dirs": [ "include" ]
+        },
+        "toolbox": {
+            "alias": "idf::toolbox",
+            "target": "___idf_toolbox",
+            "prefix": "idf",
+            "dir": "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/components/toolbox",
+            "lib": "__idf_toolbox",
+            "reqs": [ "driver", "esp_timer" ],
+            "priv_reqs": [],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "include_dirs": [ "include" ]
+        },
+        "your_custom_component": {
+            "alias": "idf::your_custom_component",
+            "target": "___idf_your_custom_component",
+            "prefix": "idf",
+            "dir": "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/components/your_custom_component",
+            "lib": "__idf_your_custom_component",
+            "reqs": [],
+            "priv_reqs": [],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "include_dirs": [ "include" ]
         }
     },
     "debug_prefix_map_gdbinit": ""

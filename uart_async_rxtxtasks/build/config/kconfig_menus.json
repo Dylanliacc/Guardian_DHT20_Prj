@@ -27818,6 +27818,145 @@
                 "id": "component-config-wi-fi-provisioning-manager",
                 "title": "Wi-Fi Provisioning Manager",
                 "type": "menu"
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depends_on": "DHT20_SENSOR_ENABLED",
+                                "help": null,
+                                "id": "I2C_ADDRESS",
+                                "name": "I2C_ADDRESS",
+                                "range": null,
+                                "title": "DHT20 I2C Address",
+                                "type": "hex"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "DHT20_SENSOR_ENABLED",
+                                "help": "\"When enabled the averaged results of temperature and humidity are stored in the struct as well\nand accessible through dht20_data_t->temp_avg , dht20_data_t->humid_avg\"",
+                                "id": "FIR_FILTER_ENABLE",
+                                "name": "FIR_FILTER_ENABLE",
+                                "range": null,
+                                "title": "Enable averaging filter",
+                                "type": "bool"
+                            }
+                        ],
+                        "depends_on": "TOOLBOX_ENABLED",
+                        "help": null,
+                        "id": "DHT20_SENSOR_ENABLED",
+                        "name": "DHT20_SENSOR_ENABLED",
+                        "range": null,
+                        "title": "Enable DHT20 Temperature and Humidity sensor.",
+                        "type": "bool"
+                    }
+                ],
+                "depends_on": null,
+                "id": "component-config-dht20-setup",
+                "title": "DHT20 Setup",
+                "type": "menu"
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depends_on": "ENABLE_I2C && TOOLBOX_ENABLED",
+                                        "help": null,
+                                        "id": "I2C_PORT_NUM",
+                                        "name": "I2C_PORT_NUM",
+                                        "range": null,
+                                        "title": "I2C Master Port",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "ENABLE_I2C && TOOLBOX_ENABLED",
+                                        "help": null,
+                                        "id": "I2C_GPIO_SCL",
+                                        "name": "I2C_GPIO_SCL",
+                                        "range": null,
+                                        "title": "GPIO For I2C SCL",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "ENABLE_I2C && TOOLBOX_ENABLED",
+                                        "help": null,
+                                        "id": "I2C_GPIO_SDA",
+                                        "name": "I2C_GPIO_SDA",
+                                        "range": null,
+                                        "title": "GPIO For I2C SDA",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "ENABLE_I2C && TOOLBOX_ENABLED",
+                                        "help": null,
+                                        "id": "I2C_GPIO_SCL_PULLUP",
+                                        "name": "I2C_GPIO_SCL_PULLUP",
+                                        "range": null,
+                                        "title": "Enable SCL Pullup resistor",
+                                        "type": "bool"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "ENABLE_I2C && TOOLBOX_ENABLED",
+                                        "help": null,
+                                        "id": "I2C_GPIO_SDA_PULLUP",
+                                        "name": "I2C_GPIO_SDA_PULLUP",
+                                        "range": null,
+                                        "title": "Enable SDA Pullup resistor",
+                                        "type": "bool"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "ENABLE_I2C && TOOLBOX_ENABLED",
+                                        "help": null,
+                                        "id": "I2C_MASTER_FREQUENCY",
+                                        "name": "I2C_MASTER_FREQUENCY",
+                                        "range": null,
+                                        "title": "I2C Clock frequency",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "ENABLE_I2C && TOOLBOX_ENABLED",
+                                        "help": null,
+                                        "id": "I2C_BUS_TIMEOUT",
+                                        "name": "I2C_BUS_TIMEOUT",
+                                        "range": null,
+                                        "title": "Wait for response (ms)",
+                                        "type": "int"
+                                    }
+                                ],
+                                "depends_on": "TOOLBOX_ENABLED",
+                                "help": null,
+                                "id": "ENABLE_I2C",
+                                "name": "ENABLE_I2C",
+                                "range": null,
+                                "title": "Enable I2C Bus communication",
+                                "type": "bool"
+                            }
+                        ],
+                        "depends_on": null,
+                        "help": null,
+                        "id": "TOOLBOX_ENABLED",
+                        "name": "TOOLBOX_ENABLED",
+                        "range": null,
+                        "title": "Enable Toolbox functions",
+                        "type": "bool"
+                    }
+                ],
+                "depends_on": null,
+                "id": "component-config-toolbox-setup",
+                "title": "TOOLBOX SETUP",
+                "type": "menu"
             }
         ],
         "depends_on": null,

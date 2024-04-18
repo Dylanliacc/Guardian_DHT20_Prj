@@ -13,7 +13,8 @@
 #include "driver/uart.h"
 #include "string.h"
 #include "driver/gpio.h"
-
+#include "your_custom_component.h"
+#include "dht20.h"
 static const int RX_BUF_SIZE = 1024;
 
 #define TXD_PIN (GPIO_NUM_4)
@@ -72,6 +73,7 @@ static void rx_task(void *arg)
 void app_main(void)
 {
     init();
+    your_custom_function();
     xTaskCreate(rx_task, "uart_rx_task", 1024 * 2, NULL, configMAX_PRIORITIES - 1, NULL);
     xTaskCreate(tx_task, "uart_tx_task", 1024 * 2, NULL, configMAX_PRIORITIES - 2, NULL);
 }

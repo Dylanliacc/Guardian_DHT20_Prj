@@ -6,6 +6,8 @@
   "idf.openOcdConfigs": ["board/esp32s3-builtin.cfg"],
   "cmake.configureOnOpen": false,
   "files.associations": {
-    "sdkconfig.h": "c"
+    "sdkconfig.h": "c",
+    "toolbox.h": "c",
+    "i2c.h": "c"
   }
 }
