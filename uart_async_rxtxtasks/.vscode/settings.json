@@ -1,3 +1,11 @@
 {
-  "C_Cpp.intelliSenseEngine": "default"
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.adapterTargetName": "esp32s3",
+  "idf.port": "/dev/ttyACM0",
+  "idf.flashType": "JTAG",
+  "idf.openOcdConfigs": ["board/esp32s3-builtin.cfg"],
+  "cmake.configureOnOpen": false,
+  "files.associations": {
+    "sdkconfig.h": "c"
+  }
 }

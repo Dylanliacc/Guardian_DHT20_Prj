@@ -4,7 +4,11 @@
     {
       "type": "espidf",
       "name": "Launch",
-      "request": "launch"
+      "request": "launch",
+      "miDebuggerServerAddress": "127.0.0.1:3333",//目标板的ip地址和端口
+      "program": "${workspaceRoot}/build/xxx.elf",
+      "miDebuggerPath": "/home/dylan/.espressif/tools/xtensa-esp32s3-elf/esp-2021r2-patch3-8.4.0/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gdb"
+
     }
   ]
 }
