@@ -28,5 +28,54 @@ menu "TOOLBOX SETUP"
                     int "Wait for response (ms)"
                     default 200
             endif
+        config ENABLE_AT_HOST_UART
+            bool "Enable AT_HOST_UART communication"
+            if ENABLE_AT_HOST_UART
+                config  AT_HOST_UART_PORT_NUM
+                    int "UART Port"
+                    default 0 
+                config AT_HOST_name
+                    string "UART Name"
+                    default "UART"
+                config AT_HOST_UART_BAUD_RATE
+                    int "Baud Rate"
+                    default 115200
+                config AT_HOST_UART_DATA_BITS
+                    hex "Data Bits"
+                    default 0x3
+                config AT_HOST_UART_DATA_PARITY
+                    hex "Parity"
+                    default 0x0
+                config AT_HOST_UART_DATA_STOP_BITS
+                    hex "Stop Bits"
+                    default 0x1
+                config AT_HOST_UART_DATA_FLOW_CONTROL
+                    hex "Flow Control"
+                    default 0x0
+                config AT_HOST_UART_RX_PIN
+                    int "RX Pin"
+                    default 3
+                config AT_HOST_UART_TX_PIN
+                    int "TX Pin"
+                    default 1 
+                config AT_HOST_UART_RX_BUFFER_SIZE
+                    int "RX Buffer Size"
+                    default 256
+                config AT_HOST_UART_TX_BUFFER_SIZE
+                    int "TX Buffer Size"
+                    default 256
+                config AT_HOST_UART_RX_TIMEOUT
+                    int "RX Timeout (ms)"
+                    default 100
+                config AT_HOST_UART_TX_TIMEOUT
+                    int "TX Timeout (ms)"
+                    default 100
+                config AT_HOST_UART_RX_QUEUE_SIZE
+                    int "RX Queue Size"
+                    default 10
+                config AT_HOST_UART_TX_QUEUE_SIZE
+                    int "TX Queue Size"
+                    default 10
+            endif
     endif
 endmenu

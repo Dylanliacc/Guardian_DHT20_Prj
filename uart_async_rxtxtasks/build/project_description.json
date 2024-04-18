@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "uart_async_rxtxtasks",
-    "project_version":    "7d90384-dirty",
+    "project_version":    "909bce2-dirty",
     "project_path":       "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks",
     "idf_path":           "/home/dylan/esp/v5.2.1/esp-idf",
     "build_dir":          "/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/build",

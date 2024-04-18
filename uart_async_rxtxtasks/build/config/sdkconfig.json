@@ -85,6 +85,7 @@
     "EFUSE_CUSTOM_TABLE": false,
     "EFUSE_MAX_BLK_LEN": 256,
     "EFUSE_VIRTUAL": false,
+    "ENABLE_AT_HOST_UART": false,
     "ENABLE_I2C": true,
     "ESP32S3_DATA_CACHE_16KB": false,
     "ESP32S3_DATA_CACHE_32KB": true,

@@ -27942,6 +27942,167 @@
                                 "range": null,
                                 "title": "Enable I2C Bus communication",
                                 "type": "bool"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depends_on": "ENABLE_AT_HOST_UART && TOOLBOX_ENABLED",
+                                        "help": null,
+                                        "id": "AT_HOST_UART_PORT_NUM",
+                                        "name": "AT_HOST_UART_PORT_NUM",
+                                        "range": null,
+                                        "title": "UART Port",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "ENABLE_AT_HOST_UART && TOOLBOX_ENABLED",
+                                        "help": null,
+                                        "id": "AT_HOST_name",
+                                        "name": "AT_HOST_name",
+                                        "range": null,
+                                        "title": "UART Name",
+                                        "type": "string"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "ENABLE_AT_HOST_UART && TOOLBOX_ENABLED",
+                                        "help": null,
+                                        "id": "AT_HOST_UART_BAUD_RATE",
+                                        "name": "AT_HOST_UART_BAUD_RATE",
+                                        "range": null,
+                                        "title": "Baud Rate",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "ENABLE_AT_HOST_UART && TOOLBOX_ENABLED",
+                                        "help": null,
+                                        "id": "AT_HOST_UART_DATA_BITS",
+                                        "name": "AT_HOST_UART_DATA_BITS",
+                                        "range": null,
+                                        "title": "Data Bits",
+                                        "type": "hex"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "ENABLE_AT_HOST_UART && TOOLBOX_ENABLED",
+                                        "help": null,
+                                        "id": "AT_HOST_UART_DATA_PARITY",
+                                        "name": "AT_HOST_UART_DATA_PARITY",
+                                        "range": null,
+                                        "title": "Parity",
+                                        "type": "hex"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "ENABLE_AT_HOST_UART && TOOLBOX_ENABLED",
+                                        "help": null,
+                                        "id": "AT_HOST_UART_DATA_STOP_BITS",
+                                        "name": "AT_HOST_UART_DATA_STOP_BITS",
+                                        "range": null,
+                                        "title": "Stop Bits",
+                                        "type": "hex"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "ENABLE_AT_HOST_UART && TOOLBOX_ENABLED",
+                                        "help": null,
+                                        "id": "AT_HOST_UART_DATA_FLOW_CONTROL",
+                                        "name": "AT_HOST_UART_DATA_FLOW_CONTROL",
+                                        "range": null,
+                                        "title": "Flow Control",
+                                        "type": "hex"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "ENABLE_AT_HOST_UART && TOOLBOX_ENABLED",
+                                        "help": null,
+                                        "id": "AT_HOST_UART_RX_PIN",
+                                        "name": "AT_HOST_UART_RX_PIN",
+                                        "range": null,
+                                        "title": "RX Pin",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "ENABLE_AT_HOST_UART && TOOLBOX_ENABLED",
+                                        "help": null,
+                                        "id": "AT_HOST_UART_TX_PIN",
+                                        "name": "AT_HOST_UART_TX_PIN",
+                                        "range": null,
+                                        "title": "TX Pin",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "ENABLE_AT_HOST_UART && TOOLBOX_ENABLED",
+                                        "help": null,
+                                        "id": "AT_HOST_UART_RX_BUFFER_SIZE",
+                                        "name": "AT_HOST_UART_RX_BUFFER_SIZE",
+                                        "range": null,
+                                        "title": "RX Buffer Size",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "ENABLE_AT_HOST_UART && TOOLBOX_ENABLED",
+                                        "help": null,
+                                        "id": "AT_HOST_UART_TX_BUFFER_SIZE",
+                                        "name": "AT_HOST_UART_TX_BUFFER_SIZE",
+                                        "range": null,
+                                        "title": "TX Buffer Size",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "ENABLE_AT_HOST_UART && TOOLBOX_ENABLED",
+                                        "help": null,
+                                        "id": "AT_HOST_UART_RX_TIMEOUT",
+                                        "name": "AT_HOST_UART_RX_TIMEOUT",
+                                        "range": null,
+                                        "title": "RX Timeout (ms)",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "ENABLE_AT_HOST_UART && TOOLBOX_ENABLED",
+                                        "help": null,
+                                        "id": "AT_HOST_UART_TX_TIMEOUT",
+                                        "name": "AT_HOST_UART_TX_TIMEOUT",
+                                        "range": null,
+                                        "title": "TX Timeout (ms)",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "ENABLE_AT_HOST_UART && TOOLBOX_ENABLED",
+                                        "help": null,
+                                        "id": "AT_HOST_UART_RX_QUEUE_SIZE",
+                                        "name": "AT_HOST_UART_RX_QUEUE_SIZE",
+                                        "range": null,
+                                        "title": "RX Queue Size",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "ENABLE_AT_HOST_UART && TOOLBOX_ENABLED",
+                                        "help": null,
+                                        "id": "AT_HOST_UART_TX_QUEUE_SIZE",
+                                        "name": "AT_HOST_UART_TX_QUEUE_SIZE",
+                                        "range": null,
+                                        "title": "TX Queue Size",
+                                        "type": "int"
+                                    }
+                                ],
+                                "depends_on": "TOOLBOX_ENABLED",
+                                "help": null,
+                                "id": "ENABLE_AT_HOST_UART",
+                                "name": "ENABLE_AT_HOST_UART",
+                                "range": null,
+                                "title": "Enable AT_HOST_UART communication",
+                                "type": "bool"
                             }
                         ],
                         "depends_on": null,
