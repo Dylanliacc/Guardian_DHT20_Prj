@@ -27825,6 +27825,35 @@
                         "children": [
                             {
                                 "children": [],
+                                "depends_on": "AT_HOST_Enable",
+                                "help": "\"AT_cmd_init with The first instruction set or the second instruction set\"",
+                                "id": "AT_command_set_selection",
+                                "name": "AT_command_set_selection",
+                                "range": null,
+                                "title": "AT_command_set_selection",
+                                "type": "int"
+                            }
+                        ],
+                        "depends_on": "TOOLBOX_ENABLED",
+                        "help": null,
+                        "id": "AT_HOST_Enable",
+                        "name": "AT_HOST_Enable",
+                        "range": null,
+                        "title": "Enable AT_HOST_communcation.",
+                        "type": "bool"
+                    }
+                ],
+                "depends_on": null,
+                "id": "component-config-at_host_setup",
+                "title": "AT_HOST_Setup",
+                "type": "menu"
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
                                 "depends_on": "DHT20_SENSOR_ENABLED",
                                 "help": null,
                                 "id": "I2C_ADDRESS",

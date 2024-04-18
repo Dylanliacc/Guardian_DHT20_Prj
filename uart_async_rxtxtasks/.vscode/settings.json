@@ -8,6 +8,7 @@
   "files.associations": {
     "sdkconfig.h": "c",
     "toolbox.h": "c",
-    "i2c.h": "c"
+    "i2c.h": "c",
+    "dht20.h": "c"
   }
 }

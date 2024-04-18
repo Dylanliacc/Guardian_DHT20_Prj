@@ -66,4 +66,5 @@
 /home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/build/esp-idf/main/libmain.a
 /home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/build/esp-idf/toolbox/libtoolbox.a
 /home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/build/esp-idf/dht20/libdht20.a
+/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/build/esp-idf/AT_HOST/libAT_HOST.a
 /home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/build/esp-idf/your_custom_component/libyour_custom_component.a

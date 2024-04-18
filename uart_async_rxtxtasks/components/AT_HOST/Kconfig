@@ -1,4 +1,4 @@
-menu "AT_HOST Setup"
+menu "AT_HOST_Setup"
     config AT_HOST_Enable
         bool "Enable AT_HOST_communcation."
         depends on TOOLBOX_ENABLED
@@ -7,6 +7,7 @@ menu "AT_HOST Setup"
         config AT_command_set_selection
             int "AT_command_set_selection"
             default 1
-            help AT_cmd_init with The first instruction set or the second instruction set
+            help 
+                "AT_cmd_init with The first instruction set or the second instruction set"
     endif
 endmenu

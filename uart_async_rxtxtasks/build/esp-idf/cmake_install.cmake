@@ -429,6 +429,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/build/esp-idf/AT_HOST/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/home/dylan/seeed_ws/learning/DHT20_Prj/Guardian_DHT20_Prj/uart_async_rxtxtasks/build/esp-idf/your_custom_component/cmake_install.cmake")
 endif()
 

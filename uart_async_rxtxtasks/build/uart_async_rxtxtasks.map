@@ -15055,6 +15055,7 @@ LOAD esp-idf/wifi_provisioning/libwifi_provisioning.a
 LOAD esp-idf/main/libmain.a
 LOAD esp-idf/toolbox/libtoolbox.a
 LOAD esp-idf/dht20/libdht20.a
+LOAD esp-idf/AT_HOST/libAT_HOST.a
 LOAD esp-idf/your_custom_component/libyour_custom_component.a
 LOAD esp-idf/app_trace/libapp_trace.a
 LOAD esp-idf/app_trace/libapp_trace.a
@@ -15078,6 +15079,7 @@ LOAD esp-idf/protocomm/libprotocomm.a
 LOAD esp-idf/console/libconsole.a
 LOAD esp-idf/protobuf-c/libprotobuf-c.a
 LOAD esp-idf/json/libjson.a
+LOAD esp-idf/dht20/libdht20.a
 LOAD esp-idf/toolbox/libtoolbox.a
 LOAD esp-idf/xtensa/libxtensa.a
 LOAD esp-idf/esp_ringbuf/libesp_ringbuf.a
